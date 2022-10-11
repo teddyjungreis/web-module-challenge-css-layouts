@@ -34,7 +34,7 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
+blockquote, q { 
 	quotes: none;
 }
 blockquote:before, blockquote:after,
@@ -46,4 +46,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid;
+	border-color: black;
+	font-size: 1.25rem;
+}
+
 
