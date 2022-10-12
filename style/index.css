@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -59,3 +59,76 @@ header {
 }
 
 
+.top {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	border: solid;
+	border-color: black;
+	/* background-image: url('https://theplanetd.com/images/Best-Views-in-New-York-City.jpg'); */
+	/* background-size: cover; */
+}
+
+.top>h1:first-child {
+	font-size: 2rem;
+	flex: 0 1 100%;
+	margin: 1.5%;
+}
+
+
+nav {
+	border: solid;
+	border-color: black;
+	font: white;
+	font-size: 1.25rem;
+	margin-left: 4%;
+	margin-bottom: 2%;
+}
+
+nav a:hover {
+	color:black;
+}
+
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+
+.h_image img {
+	width: 30rem;
+    height: auto;
+	padding: 4%;
+}
+
+.description {
+	margin-left: 10%;
+}
+
+h2 {
+	font-size: 1.75rem;
+}
+
+.description button {
+	font-size: larger;
+	border: solid;
+	border-color: black;
+	color: red;
+	display: inline-block;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	cursor: pointer;
+}
+
+
+.description button:hover {
+	color: pink;
+}
+
+.main p {
+	font-size: large;
+	
+}
