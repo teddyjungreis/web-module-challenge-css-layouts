@@ -55,6 +55,8 @@ header {
 	align-items: center;
 	border: solid;
 	border-color: black;
+	background-color: lightgray;
+	padding: 20px;
 	font-size: 1.25rem;
 }
 
@@ -65,8 +67,9 @@ header {
 	flex-direction: row;
 	border: solid;
 	border-color: black;
-	/* background-image: url('https://theplanetd.com/images/Best-Views-in-New-York-City.jpg'); */
-	/* background-size: cover; */
+	/* background-image: url('https://theplanetd.com/images/Best-Views-in-New-York-City.jpg');
+	background-size: cover; */
+	background-color: darkgrey;
 }
 
 .top>h1:first-child {
@@ -129,6 +132,31 @@ h2 {
 }
 
 .main p {
-	font-size: large;
-	
+	font-size: 1.5rem;
+	margin-right: 20%;
 }
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.projects div {
+	border: solid;
+	border-color: black;
+	width: 10%;
+	padding: 5%;
+	height: 40%;
+	margin-bottom: 5%;
+}
+
+/* .project1 img {
+	border: solid;
+	border-color: black;
+	width: 10%;
+	padding: 4%;
+	height: 10%;
+} */
+
