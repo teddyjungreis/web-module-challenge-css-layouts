@@ -50,18 +50,20 @@ table {
 
 
 header {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: solid;
-	border-color: black;
 	background-color: lightgray;
 	padding: 20px;
 	font-size: 1.25rem;
 }
 
+h1 {
+	font-size: 2rem;
+	flex: 0 1 100%;
+	margin: 1.5%;
+	font-style: bold;
+}
 
-.top {
+
+/* .top {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -69,19 +71,19 @@ header {
 	border-color: black;
 	/* background-image: url('https://theplanetd.com/images/Best-Views-in-New-York-City.jpg');
 	background-size: cover; */
-	background-color: darkgrey;
-}
+	/* background-color: darkgrey;
+} */ 
 
-.top>h1:first-child {
+/* .top>h1:first-child {
 	font-size: 2rem;
 	flex: 0 1 100%;
 	margin: 1.5%;
-}
+} */
 
 
 nav {
-	border: solid;
-	border-color: black;
+	/* border: solid;
+	border-color: black; */
 	font: white;
 	font-size: 1.25rem;
 	margin-left: 4%;
@@ -95,27 +97,28 @@ nav a:hover {
 
 .main {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
-	align-items: center;
-	flex-wrap: nowrap;
 }
 
 
-.h_image img {
+.main img {
 	width: 30rem;
     height: auto;
 	padding: 4%;
 }
 
 .description {
-	margin-left: 10%;
+	padding: 20px;
 }
+
 
 h2 {
 	font-size: 1.75rem;
+	padding: 10px;
 }
 
-.description button {
+/* .description button {
 	font-size: larger;
 	border: solid;
 	border-color: black;
@@ -124,19 +127,50 @@ h2 {
 	margin-top: 2%;
 	margin-bottom: 2%;
 	cursor: pointer;
-}
+} */
 
 
-.description button:hover {
-	color: pink;
-}
 
 .main p {
 	font-size: 1.5rem;
 	margin-right: 20%;
+	padding: 10px;
 }
 
-.projects {
+
+
+.row {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+
+.portfolio-element {
+	text-align: center;
+}
+
+
+button {
+	background-color: white;
+	color: black;
+	border: black solid 1px;
+	padding: 5px 10px;
+
+}
+
+
+button:hover {
+	background-color: black;
+	color:white;
+	border: white solid 1px;
+}
+
+button a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* .projects {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -150,6 +184,12 @@ h2 {
 	padding: 5%;
 	height: 40%;
 	margin-bottom: 5%;
+} */
+
+footer {
+	background-color: lightgrey;
+	text-align: center;
+	padding: 20px;
 }
 
 /* .project1 img {
